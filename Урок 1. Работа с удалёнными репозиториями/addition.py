@@ -4,7 +4,7 @@ def addition(x, y):
     if x and y > 0:
         pass
     else:
-        print("wrong wariables")
+        print("wariables are wrong!!!")
 
     for i in range(y):
         z += 1
