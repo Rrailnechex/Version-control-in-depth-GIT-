@@ -3,6 +3,3 @@ def multiplication(x, y):
     for i in range(y):
         z += x
     return z
-
-
-print(multiplication(11, 7))
