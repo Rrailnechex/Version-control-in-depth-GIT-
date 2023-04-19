@@ -8,8 +8,10 @@ all_functions_list = [addition, division, multiplication, substraction]
 
 x = 60
 y = 4
-
+results = []
 
 for i in range(20):
     deal = random.choice(all_functions_list)
-    print(deal(x, y))
+    t = deal(x, y)
+    print(t)
+    results.append(t)
