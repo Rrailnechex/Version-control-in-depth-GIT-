@@ -1,0 +1,13 @@
+from addition import addition
+from division import division
+from multiplication import multiplication
+from substraction import substraction
+import random
+
+all_functions_list = [addition(), division(), multiplication(), substraction()]
+
+x = 60
+y = 4
+
+deal = random.choice(all_functions_list)
+print(deal(x, y))
