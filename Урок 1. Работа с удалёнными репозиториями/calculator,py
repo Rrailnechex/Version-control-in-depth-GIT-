@@ -4,7 +4,7 @@ from multiplication import multiplication
 from substraction import substraction
 import random
 
-all_functions_list = [addition(), division(), multiplication(), substraction()]
+all_functions_list = [addition, division, multiplication, substraction]
 
 x = 60
 y = 4
